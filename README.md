@@ -1,6 +1,6 @@
 # Pelican Bike · 鹈鹕骑单车
 
-[GitHub 仓库](https://github.com/MoChouBlog/pelican-bike) · [操作指南](docs/CONTROLS.md)
+**[在线演示 →](https://mochoublog.github.io/pelican-bike/)** · [GitHub 仓库](https://github.com/MoChouBlog/pelican-bike) · [操作指南](docs/CONTROLS.md)
 
 一只戴着头盔、系着红围巾的鹈鹕，骑着复古单车沿海岸追鱼。
 
@@ -28,6 +28,8 @@
 - **留下这一帧**：一键保存 PNG 截图，隐藏界面后专心看风景。部署到网站后，分享按钮会生成包含当前时刻与镜头的链接。
 
 ## 开始骑行
+
+直接打开 **[在线演示](https://mochoublog.github.io/pelican-bike/)**，点击「开始骑行」即可。也可以下载到本地运行：
 
 1. 下载仓库 ZIP 并解压，或者克隆仓库。
 2. 双击根目录的 **`index.html`**，用当前版本的 **Chrome 或 Edge** 打开。
@@ -83,9 +85,9 @@ pelican-bike/
 
 ## 部署到静态网站
 
-这个项目没有服务端逻辑，只需让静态托管服务提供根目录的 `index.html`。
+本仓库已配置 **GitHub Pages**，从 `main` 分支根目录发布，启用强制 HTTPS。推送到 `main` 后会自动触发部署，发布地址为 **[mochoublog.github.io/pelican-bike](https://mochoublog.github.io/pelican-bike/)**。首次发布或更新需要等待 GitHub 完成部署。
 
-**GitHub Pages** 可以直接从仓库发布：
+这个项目没有服务端逻辑，只需让静态托管服务提供根目录的 `index.html`。如果你将它放到自己的仓库，可以这样启用 Pages：
 
 1. 打开仓库的 **Settings → Pages**。
 2. 在 **Build and deployment** 中选择 **Deploy from a branch**。
