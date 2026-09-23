@@ -1,5 +1,7 @@
 # Pelican Bike · 鹈鹕骑单车
 
+[GitHub 仓库](https://github.com/MoChouBlog/pelican-bike) · [操作指南](docs/CONTROLS.md)
+
 一只戴着头盔、系着红围巾的鹈鹕，骑着复古单车沿海岸追鱼。
 
 这是一个可直接在浏览器里打开的实时 3D 互动场景。踩踏、海浪、围巾、昼夜和音乐一起流动；你可以自己骑，也可以让它自动驾驶，挑一个镜头看海。
@@ -30,6 +32,13 @@
 1. 下载仓库 ZIP 并解压，或者克隆仓库。
 2. 双击根目录的 **`index.html`**，用当前版本的 **Chrome 或 Edge** 打开。
 3. 点击「开始骑行」；想安静看看，可以选择「静音进入」。
+
+使用 Git 下载：
+
+```bash
+git clone https://github.com/MoChouBlog/pelican-bike.git
+cd pelican-bike
+```
 
 不需要安装 Node.js，不需要 `npm install`，也不需要后端。页面脚本、样式与场景都包含在 HTML 中，不依赖外部模型或贴图。
 
